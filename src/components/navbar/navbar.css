@@ -70,6 +70,10 @@
     display: none;
 }
 
+.nav__navbar-menu_container-links p{
+    font-family: var(--font-family-poppins);
+}
+
 @media screen and (max-width: 900px){
     .nav__navbar-news{
         display: none;
@@ -89,5 +93,10 @@
 @media screen and (max-width: 425px){
     .nav__navbar{
         padding: 2rem;
+    }
+
+    .nav__navbar-links_logo img{
+        width: 140px;
+        height: 30px;
     }
 }

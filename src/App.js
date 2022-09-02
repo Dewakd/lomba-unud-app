@@ -5,8 +5,11 @@ import { About, Contribution, Header, Newsletter, Reasons, TakeAction, WhyUs } f
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Header/>
+      <div className='header-bg'>
+        <Navbar/>
+        <Header/>
+      </div>
+      
     </div>
   );
 }

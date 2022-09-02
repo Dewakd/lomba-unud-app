@@ -1,0 +1,20 @@
+.head__header{
+    height: 100%;
+}
+
+.head__header-content{
+    padding: 10rem 0;
+}
+
+.head__header-content p{
+    font-family: var(--font-family-poppins);
+    color: var(--color-bg-green);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+}
+
+.head__header-content span{
+    color: var(--color-text-yellow);
+}

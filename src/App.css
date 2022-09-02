@@ -27,6 +27,14 @@ a{
 	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
+.header-bg{
+  background-image: url("./assets/header-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
+}
+
  @-webkit-keyframes scale-up-center {
     0% {
       -webkit-transform: scale(0.5);
@@ -48,6 +56,12 @@ a{
     }
   }
 
+  @media screen and (max-width: 1515px){
+    .header-bg{
+      background-size: contain;
+    }
+  }
+
   @media screen and (max-width: 700px){
     .section__padding{
         padding: 4rem;
@@ -65,5 +79,9 @@ a{
 
     .section__margin{
         padding: 4rem 2rem;
+    }
+
+    .header-bg{
+      background-image: url("./assets/header-responsive-bg.png");
     }
   }
