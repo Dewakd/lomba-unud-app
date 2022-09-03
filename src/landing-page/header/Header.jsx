@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className='head__header section__padding'>
       <div className="head__header-content">
-        <p>Saving our planet <span>together,</span> <br/> once action make change</p>
+        <p>Saving our planet <span>together,</span> <br className='poo'/> once action make change</p>
       </div>
     </div>
   )
