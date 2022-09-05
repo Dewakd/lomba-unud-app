@@ -8,6 +8,7 @@ function App() {
       <div className='header-bg'>
         <Navbar/>
         <Header/>
+        <About/>
       </div>
       
     </div>
