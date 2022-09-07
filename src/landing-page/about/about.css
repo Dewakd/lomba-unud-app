@@ -43,7 +43,7 @@
     font-family: var(--font-family-poppins);
     font-weight: 700;
     font-size: 3vw;
-    line-height: 72px;
+    line-height: 62px;
     text-transform: uppercase;
     margin-bottom: 25px;
     color: var(--color-text-yellow);
@@ -52,7 +52,7 @@
 .abt__about-content_about-us_left p{
     font-family: var(--font-family-raleway);
     font-size: 1.2vw;
-    line-height: 28px;
+    line-height: 25px;
     color: var(--color-bg-white);
 }
 
@@ -71,15 +71,53 @@
 }
 
 @media screen and (max-width: 1350px){
-    
+    .abt__about-content_about-us_left h1{
+        line-height: 52px;
+        font-size: 2.7vw;
+        margin-bottom: 14px;
+    }
+
+    .abt__about-content_about-us_left p{
+        line-height: 22px;
+    }
+
+    .abt__about-content_button p{
+        margin-bottom: 3rem;
+        padding: 0 5rem;
+    }
 }
 
 @media screen and (max-width: 1050px){
+    .abt__about-content_about-us_left h1{
+        line-height: 42px;
+        font-size: 2.5vw;
+        margin-bottom: 14px;
+    }
+    .abt__about-content_about-us_left p{
+        font-size: 1.1vw;
+    }
+    .section__margin{
+        margin: 4rem;
+    }
 
+    .section__padding{
+        padding: 4rem;
+    }
 }
 
 @media screen and (max-width: 768px){
+    .abt__about-content_button p{
+        margin-bottom: 2rem;
+    }
 
+    .abt__about-content_about-us_left p{
+        line-height: 18px;
+    }
+
+    .abt__about-content_about-us_left h1{
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 425px){

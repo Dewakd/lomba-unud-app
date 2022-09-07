@@ -29,7 +29,7 @@ function About() {
             <img src={Bumi} alt="" />
           </div>
         </div>
-
+        
       </div>
     </div>
   )
