@@ -56,6 +56,10 @@
     color: var(--color-bg-white);
 }
 
+.abt__about-content_about-us_left a{
+    cursor: pointer;
+}
+
 .abt__about-content_about-us_right{
     width: 550px;
 }
@@ -68,6 +72,26 @@
 
 .abt__about-content_about-us_left span{
     color: var(--color-text-yellow);
+}
+
+.abt__about-content_about-us_left button{
+    font-family: var(--font-family-raleway);
+    font-size: 18px;
+    margin-top: 30px;
+    width: 248px;
+    color: white;
+    background-color: #142514;
+    border: none;
+    padding: 1rem;
+    border-radius: 70px;
+    cursor: pointer;
+    line-height: 23px;
+    transition: 0.3s;
+}
+
+
+.abt__about-content_about-us_left button:hover{
+    background-color: var(--color-text-yellow);
 }
 
 @media screen and (max-width: 1350px){
@@ -107,27 +131,82 @@
 
 @media screen and (max-width: 768px){
     .abt__about-content_button p{
-        margin-bottom: 2rem;
+        margin-bottom: 1.3rem;
+        font-size: 1.5vw;
+        padding: 0 3rem;
     }
 
     .abt__about-content_about-us_left p{
         line-height: 18px;
+        font-size: 1.7vw;
     }
 
     .abt__about-content_about-us_left h1{
         line-height: 32px;
         margin-bottom: 10px;
+        font-size: 3vw;
     }
 
     .section__margin{
-        margin: 3rem;
+        margin: 2.5rem;
+    }
+
+    .abt__about-content_about-us_left button{
+        width: 200px;
+        font-size: 16px;
     }
 
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 600px){
+
+    .abt__about-content_button p{
+        font-size: 2.5vw;
+        line-height: 20px;
+        padding: 0 1.5rem;
+    }
+
+    .abt__about-content_about-us_left h1{
+        font-size: 5vw;
+    }
+
+    .abt__about-content_about-us_left p{
+        font-size: 2.5vw;
+        width: 100%;
+        margin: 0;
+    }
+
+    .abt__about-content_about-us_left h1,
+    .abt__about-content_about-us_left p{
+        text-align: center;
+    }
+
+    .abt__about-content_about-us_left{
+        width: 100%;
+        margin: 0 0 2rem 0;
+        align-items: center;
+    }
+
+    .section__margin{
+        margin: 2rem;
+    }
+
+    .abt__about-content_about-us{
+        flex-direction: column;
+    }
+
+    .abt__about-content_about-us_right{
+        width: 290px;
+        padding: 0 20px;
+    }
+
+    .abt__about-content_about-us_left button{
+        width: 40vw;
+        font-size: 3vw;
+    }
+
+}   
 
 
-}
 
 
