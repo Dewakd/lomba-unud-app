@@ -36,7 +36,7 @@ const Info = () => (
       <div className="abt__about-content_about-info_card-container">
           <div className="abt__about-content_about-info_card-container_card">
             <h2>01</h2>
-            <p>Tanpa Kemiskinan</p>
+            <p>Tanpa <br/>Kemiskinan</p>
           </div>
       </div>
     </div>

@@ -94,6 +94,82 @@
     background-color: var(--color-text-yellow);
 }
 
+/* How Danger is Climate Change is */
+
+.abt__about-content_about-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abt__about-content_about-info h1{
+    font-family: var(--font-family-poppins);
+    font-weight: 700;
+    font-size: 3vw;
+    line-height: 72px;
+    color: var(--color-text-yellow);
+    margin-bottom: 70px;
+}
+
+.abt__about-content_about-info_card-container{
+    display: flex;
+}
+
+
+.abt__about-content_about-info_card-container_card{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    width: 400px;
+    height: 400px;
+    background-color: var(--color-text-green);
+    cursor: pointer;
+    
+}
+
+.abt__about-content_about-info_card-container_card:hover{
+    background-image: url(../../assets/how-danger-climate-1.png);
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+
+.abt__about-content_about-info_card-container_card h2{
+    font-family: var(--font-family-raleway);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: rgba(217, 217, 217, 0.7);
+    margin-bottom: 10px;
+}
+
+.abt__about-content_about-info_card-container_card p{
+    font-family: var(--font-family-poppins);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
 @media screen and (max-width: 1350px){
     .abt__about-content_about-us_left h1{
         line-height: 52px;
