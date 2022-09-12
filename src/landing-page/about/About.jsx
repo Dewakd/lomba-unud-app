@@ -32,7 +32,13 @@ const Abouts = () => (
 const Info = () => (
   <>
    <div className="abt__about-content_about-info section__margin">
-
+      <h1>How Danger is Climate Change is?</h1>
+      <div className="abt__about-content_about-info_card-container">
+          <div className="abt__about-content_about-info_card-container_card">
+            <h2>01</h2>
+            <p>Tanpa Kemiskinan</p>
+          </div>
+      </div>
     </div>
   </>
 )
