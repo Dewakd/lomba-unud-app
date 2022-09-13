@@ -37,6 +37,11 @@ const Info = () => (
           <div className="abt__about-content_about-info_card-container_card">
             <h2>01</h2>
             <p>Tanpa <br/>Kemiskinan</p>
+            <span>perubahan iklim yg ekstrim 
+                  dan merusak mata pencaharian,
+                  panas mempersulit pekerjaan 
+                  diluar ruangan dan lainnya...
+            </span>
           </div>
       </div>
     </div>
