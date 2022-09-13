@@ -1,6 +1,5 @@
-
-
-.abt__about-content_button{
+/* About US */
+.abt__about-content_button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "kiri kanan";
@@ -8,15 +7,15 @@
     text-align: center;
 }
 
-.abt__about-content_button .kiri{
+.abt__about-content_button .kiri {
     grid-area: kiri;
 }
 
-.abt__about-content_button .kanan{
+.abt__about-content_button .kanan {
     grid-area: kanan;
 }
 
-.abt__about-content_button p{
+.abt__about-content_button p {
     font-family: var(--font-family-raleway);
     font-weight: 600;
     font-size: 1.2vw;
@@ -26,20 +25,20 @@
     padding: 0 10rem;
 }
 
-.abt__about-content_about-us{
+.abt__about-content_about-us {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.abt__about-content_about-us_left{
+.abt__about-content_about-us_left {
     display: flex;
     flex-direction: column;
     margin-right: 5rem;
     width: 630px;
 }
 
-.abt__about-content_about-us_left h1{
+.abt__about-content_about-us_left h1 {
     font-family: var(--font-family-poppins);
     font-weight: 700;
     font-size: 3vw;
@@ -49,32 +48,32 @@
     color: var(--color-text-yellow);
 }
 
-.abt__about-content_about-us_left p{
+.abt__about-content_about-us_left p {
     font-family: var(--font-family-raleway);
     font-size: 1.2vw;
     line-height: 25px;
     color: var(--color-bg-white);
 }
 
-.abt__about-content_about-us_left a{
+.abt__about-content_about-us_left a {
     cursor: pointer;
 }
 
-.abt__about-content_about-us_right{
+.abt__about-content_about-us_right {
     width: 550px;
 }
 
-.abt__about-content_about-us_right img{
+.abt__about-content_about-us_right img {
     width: 100%;
     object-fit: cover;
 }
 
 
-.abt__about-content_about-us_left span{
+.abt__about-content_about-us_left span {
     color: var(--color-text-yellow);
 }
 
-.abt__about-content_about-us_left button{
+.abt__about-content_about-us_left button {
     font-family: var(--font-family-raleway);
     font-size: 18px;
     margin-top: 30px;
@@ -90,199 +89,127 @@
 }
 
 
-.abt__about-content_about-us_left button:hover{
+.abt__about-content_about-us_left button:hover {
     background-color: var(--color-text-yellow);
 }
 
-/* How Danger is Climate Change is */
 
-.abt__about-content_about-info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.abt__about-content_about-info h1{
-    font-family: var(--font-family-poppins);
-    font-weight: 700;
-    font-size: 3vw;
-    line-height: 72px;
-    color: var(--color-text-yellow);
-    margin-bottom: 70px;
-}
-
-.abt__about-content_about-info_card-container{
-    display: flex;
-}
+/* How Danger Climate change is? */
 
 
-.abt__about-content_about-info_card-container_card{
-    display: flex;
-    flex-direction: column;
-    padding: 70px;
-    width: 400px;
-    height: 400px;
-    background-color: var(--color-text-green);
-    cursor: pointer;
-    
-}
+.abt__about-content_about-info {}
 
-.abt__about-content_about-info_card-container_card:hover{
-    background-image: url(../../assets/how-danger-climate-1.png);
-}
-
-@-webkit-keyframes scale-up-center {
-    0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
-  }
-  @keyframes scale-up-center {
-    0% {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5);
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
-  }
-
-
-.abt__about-content_about-info_card-container_card h2{
-    font-family: var(--font-family-raleway);
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 56px;
-    color: rgba(217, 217, 217, 0.7);
-    margin-bottom: 10px;
-}
-
-.abt__about-content_about-info_card-container_card p{
-    font-family: var(--font-family-poppins);
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 48px;
-    color: #FFFFFF;
-}
-
-@media screen and (max-width: 1350px){
-    .abt__about-content_about-us_left h1{
+@media screen and (max-width: 1350px) {
+    .abt__about-content_about-us_left h1 {
         line-height: 52px;
         font-size: 2.7vw;
         margin-bottom: 14px;
     }
 
-    .abt__about-content_about-us_left p{
+    .abt__about-content_about-us_left p {
         line-height: 22px;
     }
 
-    .abt__about-content_button p{
+    .abt__about-content_button p {
         margin-bottom: 3rem;
         padding: 0 5rem;
     }
 }
 
-@media screen and (max-width: 1050px){
-    .abt__about-content_about-us_left h1{
+@media screen and (max-width: 1050px) {
+    .abt__about-content_about-us_left h1 {
         line-height: 42px;
         font-size: 2.5vw;
         margin-bottom: 14px;
     }
-    .abt__about-content_about-us_left p{
+
+    .abt__about-content_about-us_left p {
         font-size: 1.1vw;
     }
-    .section__margin{
+
+    .section__margin {
         margin: 4rem;
     }
 
-    .section__padding{
+    .section__padding {
         padding: 4rem;
     }
 }
 
-@media screen and (max-width: 768px){
-    .abt__about-content_button p{
+@media screen and (max-width: 768px) {
+    .abt__about-content_button p {
         margin-bottom: 1.3rem;
         font-size: 1.5vw;
         padding: 0 3rem;
     }
 
-    .abt__about-content_about-us_left p{
+    .abt__about-content_about-us_left p {
         line-height: 18px;
         font-size: 1.7vw;
     }
 
-    .abt__about-content_about-us_left h1{
+    .abt__about-content_about-us_left h1 {
         line-height: 32px;
         margin-bottom: 10px;
         font-size: 3vw;
     }
 
-    .section__margin{
+    .section__margin {
         margin: 2.5rem;
     }
 
-    .abt__about-content_about-us_left button{
+    .abt__about-content_about-us_left button {
         width: 200px;
         font-size: 16px;
     }
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
-    .abt__about-content_button p{
+    .abt__about-content_button p {
         font-size: 2.5vw;
         line-height: 20px;
         padding: 0 1.5rem;
     }
 
-    .abt__about-content_about-us_left h1{
+    .abt__about-content_about-us_left h1 {
         font-size: 5vw;
     }
 
-    .abt__about-content_about-us_left p{
+    .abt__about-content_about-us_left p {
         font-size: 2.5vw;
         width: 100%;
         margin: 0;
     }
 
     .abt__about-content_about-us_left h1,
-    .abt__about-content_about-us_left p{
+    .abt__about-content_about-us_left p {
         text-align: center;
     }
 
-    .abt__about-content_about-us_left{
+    .abt__about-content_about-us_left {
         width: 100%;
         margin: 0 0 2rem 0;
         align-items: center;
     }
 
-    .section__margin{
+    .section__margin {
         margin: 2rem;
     }
 
-    .abt__about-content_about-us{
+    .abt__about-content_about-us {
         flex-direction: column;
     }
 
-    .abt__about-content_about-us_right{
+    .abt__about-content_about-us_right {
         width: 290px;
         padding: 0 20px;
     }
 
-    .abt__about-content_about-us_left button{
+    .abt__about-content_about-us_left button {
         width: 40vw;
         font-size: 3vw;
     }
 
-}   
-
-
-
-
+}
