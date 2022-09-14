@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import './about.css'
 import Bumi from '../../assets/aboutus-earth.png'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick-theme.css";
-import "slick-carousel/slick/slick.css"; 
+import { DataClimate } from './Data';
+import Carousel from 'react-elastic-carousel'
+
 
 const Abouts = () => (
   <>
@@ -29,27 +29,39 @@ const Abouts = () => (
   </>
 )
 
+const breakPoints = [
+  {width: 500, itemsToShow: 1},
+  {width: 768, itemsToShow: 2},
+  {width: 1000, itemsToShow: 3},
+  {width: 1200, itemsToShow: 4},
+]
+
 const Info = () => (
   <>
    <div className="abt__about-content_about-info section__margin">
       <h1>How Danger is Climate Change is?</h1>
       <div className="abt__about-content_about-info_card-container">
-          <div className="abt__about-content_about-info_card-container_card">
-            <h2>01</h2>
-            <p>Tanpa <br/>Kemiskinan</p>
-            <span>perubahan iklim yg ekstrim 
-                  dan merusak mata pencaharian,
-                  panas mempersulit pekerjaan 
-                  diluar ruangan dan lainnya...
-            </span>
+        <Carousel breakPoints={breakPoints}>
+        {DataClimate.map((item) => (
+        <div className="abt__about-content_about-info_card-container_card">
+          <h2>{item.id}</h2>
+          <p>{item.title}</p>
+          <span>{item.desc}</span>
+          <div className="abt__about-content_about-info_card-container_card-link">
+            <a href="#">{item.read}</a>
+            <img src={item.img} alt="" />
           </div>
+        </div>
+        ))}
+        </Carousel>
+          
       </div>
     </div>
   </>
 )
 
 function About() {
-  const [toggleMenu, setToggleMenu] = useState("info");
+  const [toggleMenu, setToggleMenu] = useState("about");
   return (
     <div className='abt__about section__padding'>
       <div className="abt__about-content">

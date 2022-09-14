@@ -97,7 +97,108 @@
 /* How Danger Climate change is? */
 
 
-.abt__about-content_about-info {}
+.abt__about-content_about-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.abt__about-content_about-info h1{
+    color: var(--color-text-yellow);
+    font-family: var(--font-family-raleway);
+}
+
+.abt__about-content_about-info_card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.abt__about-content_about-info_card-container_card{
+    width: 100%;
+    height: 400px;
+    padding: 70px;
+    transition: 400ms transform ease-in-out;
+    background-image: url(../../assets/how-danger-climate-1.png);
+    margin: 0 10px;
+}
+
+.abt__about-content_about-info_card-container_card:hover{
+    transform: scale(1.025);
+}
+
+.abt__about-content_about-info_card-container_card h2,
+.abt__about-content_about-info_card-container_card span{
+    font-family: var(--font-family-raleway);
+    font-weight: 500;
+}
+
+.abt__about-content_about-info_card-container_card h2{
+    font-size: 48px;
+    line-height: 56px;
+    color: rgba(217, 217, 217, 0.7);
+}
+
+.abt__about-content_about-info_card-container_card p{
+    font-family: var(--font-family-poppins);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+}
+
+.abt__about-content_about-info_card-container_card span{
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.022em;
+    transition: 0.3s;
+    color: #fff;
+}   
+
+.abt__about-content_about-info_card-container_card-link{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.abt__about-content_about-info_card-container_card-link a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.022em;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.rec.rec-arrow {
+    border-radius: 50%;
+    background-color: var(--color-text-green);
+}
+
+.rec.rec-arrow.rec-arrow-right{
+}
+
+.rec.rec-arrow.rec-arrow-right:hover,
+.rec.rec-arrow.rec-arrow-left:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+
+
+.rec.rec-arrow:disabled {
+    /* visibility: hidden; */
+}
+
+
+
+
+
+/* Responsive */
 
 @media screen and (max-width: 1350px) {
     .abt__about-content_about-us_left h1 {
