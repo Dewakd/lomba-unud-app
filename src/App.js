@@ -8,9 +8,12 @@ function App() {
       <div className='header-bg'>
         <Navbar/>
         <Header/>
-        <About/>
+        
       </div>
-      
+        <About/>
+      <div className='reason-bg'>
+        <Reasons/>
+      </div>
     </div>
   );
 }

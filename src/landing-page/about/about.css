@@ -178,9 +178,6 @@
     background-color: var(--color-text-green);
 }
 
-.rec.rec-arrow.rec-arrow-right{
-}
-
 .rec.rec-arrow.rec-arrow-right:hover,
 .rec.rec-arrow.rec-arrow-left:hover{
     background-color: #fff;
